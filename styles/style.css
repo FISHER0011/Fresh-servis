@@ -169,7 +169,7 @@ a {
   justify-content: center;
 }
 .card-1-fresh {
-  background-image: url(./assets/img/bg-apple.png);
+  background-image: url(../assets/img/bg-apple.png);
   width: 1240px;
   height: 520px;
   padding-left: 90px;
@@ -200,7 +200,7 @@ a {
   max-width: 528px;
 }
 .card-2-fresh {
-  background-image: url(./assets/img/bg-poke.png);
+  background-image: url(../assets/img/bg-poke.png);
   background-size: contain;
   width: 1240px;
   height: 520px;
@@ -212,7 +212,7 @@ a {
   max-width: 500px;
 }
 .card-3-fresh {
-  background-image: url(./assets/img/bg-smuzi.png);
+  background-image: url(../assets/img/bg-smuzi.png);
   background-size: contain;
   width: 1240px;
   height: 520px;
@@ -229,8 +229,8 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url(./assets/img/big\ salata.png),
-    url(./assets/img/pngwing\ 2.png), url(./assets/img/bg\\(3\).png);
+  background-image: url(../assets/img/big\ salata.png),
+    url(../assets/img/pngwing\ 2.png), url(../assets/img/bg\\(3\).png);
   background-repeat: no-repeat;
   background-size: auto 550px, 326px 660px, 1492px 1010px;
   background-position: left 0 top 162px, right 0 bottom 72px, center;
@@ -281,8 +281,8 @@ a {
   justify-content: center;
 }
 .helf {
-  background-image: url(./assets/img/Group\\(1\).png),
-    url(./assets/img/Group\\(2\).png);
+  background-image: url(../assets/img/Group\\(1\).png),
+    url(../assets/img/Group\\(2\).png);
   background-repeat: no-repeat;
   background-position: left bottom, right bottom;
   padding-bottom: 79px;
@@ -348,7 +348,7 @@ a {
   content: "";
   width: 298px;
   height: 94px;
-  background-image: url(./assets/img/Line\ 265.svg);
+  background-image: url(../assets/img/Line\ 265.svg);
   position: absolute;
   left: 227px;
   top: 95px;
@@ -358,7 +358,7 @@ a {
   margin-left: auto;
 }
 .step:nth-child(even)::after {
-  background-image: url(./assets/img/Line\ 266.svg);
+  background-image: url(../assets/img/Line\ 266.svg);
   left: unset;
   right: 267px;
 }
@@ -431,7 +431,7 @@ a {
   height: 350px;
   background: rgba(5, 107, 83, 1);
   border-radius: 18px;
-  background-image: url(./assets/img/price\ image.png);
+  background-image: url(../assets/img/price\ image.png);
   background-size: 468px auto;
   background-repeat: no-repeat;
   background-position: right 32px bottom;
@@ -456,7 +456,7 @@ a {
   margin-bottom: 24px;
 }
 .proposal-price-1 {
-  background-image: url(./assets/icons/Subtract.svg);
+  background-image: url(../assets/icons/Subtract.svg);
   background-repeat: no-repeat;
   background-size: 187px 70px;
   font-family: Inter;
@@ -591,12 +591,12 @@ a {
   margin: 0;
 }
 .proposal-offer-card-4 {
-  background-image: url(./assets/img/radar\ image.png);
+  background-image: url(../assets/img/radar\ image.png);
   background-repeat: no-repeat;
   background-position: bottom;
 }
 .proposal-offer-card-5 {
-  background-image: url(./assets/img/chat\ telegram.png);
+  background-image: url(../assets/img/chat\ telegram.png);
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -697,7 +697,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(./assets/img/Group.png);
+  background-image: url(../assets/img/Group.png);
   background-repeat: no-repeat;
   background-position: top left;
 }
