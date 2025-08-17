@@ -26,7 +26,7 @@ a {
   align-items: center;
   gap: 12px;
   margin-left: 120px;
-   margin: 0;
+  margin: 0;
 }
 .logo-text {
   max-width: 86px;
@@ -36,7 +36,7 @@ a {
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 0%;
-   margin: 0;
+  margin: 0;
 }
 .header-nav {
   display: flex;
@@ -44,7 +44,7 @@ a {
 }
 .header-group {
   margin-right: 120px;
-   margin: 0;
+  margin: 0;
 }
 .header-nav-link {
   font-family: Inter;
@@ -169,7 +169,7 @@ a {
   justify-content: center;
 }
 .card-1-fresh {
-  background-image: url(/assets/img/bg-apple.png);
+  background-image: url(./assets/img/bg-apple.png);
   width: 1240px;
   height: 520px;
   padding-left: 90px;
@@ -200,7 +200,7 @@ a {
   max-width: 528px;
 }
 .card-2-fresh {
-  background-image: url(/assets/img/bg-poke.png);
+  background-image: url(./assets/img/bg-poke.png);
   background-size: contain;
   width: 1240px;
   height: 520px;
@@ -212,7 +212,7 @@ a {
   max-width: 500px;
 }
 .card-3-fresh {
-  background-image: url(/assets/img/bg-smuzi.png);
+  background-image: url(./assets/img/bg-smuzi.png);
   background-size: contain;
   width: 1240px;
   height: 520px;
@@ -229,8 +229,8 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url(/assets/img/big\ salata.png),
-    url(/assets/img/pngwing\ 2.png), url(/assets/img/bg\\(3\).png);
+  background-image: url(./assets/img/big\ salata.png),
+    url(./assets/img/pngwing\ 2.png), url(./assets/img/bg\\(3\).png);
   background-repeat: no-repeat;
   background-size: auto 550px, 326px 660px, 1492px 1010px;
   background-position: left 0 top 162px, right 0 bottom 72px, center;
@@ -281,8 +281,8 @@ a {
   justify-content: center;
 }
 .helf {
-  background-image: url(/assets/img/Group\\(1\).png),
-    url(/assets/img/Group\\(2\).png);
+  background-image: url(./assets/img/Group\\(1\).png),
+    url(./assets/img/Group\\(2\).png);
   background-repeat: no-repeat;
   background-position: left bottom, right bottom;
   padding-bottom: 79px;
@@ -348,7 +348,7 @@ a {
   content: "";
   width: 298px;
   height: 94px;
-  background-image: url(/assets/img/Line\ 265.svg);
+  background-image: url(./assets/img/Line\ 265.svg);
   position: absolute;
   left: 227px;
   top: 95px;
@@ -358,7 +358,7 @@ a {
   margin-left: auto;
 }
 .step:nth-child(even)::after {
-  background-image: url(/assets/img/Line\ 266.svg);
+  background-image: url(./assets/img/Line\ 266.svg);
   left: unset;
   right: 267px;
 }
@@ -431,7 +431,7 @@ a {
   height: 350px;
   background: rgba(5, 107, 83, 1);
   border-radius: 18px;
-  background-image: url(/assets/img/price\ image.png);
+  background-image: url(./assets/img/price\ image.png);
   background-size: 468px auto;
   background-repeat: no-repeat;
   background-position: right 32px bottom;
@@ -456,7 +456,7 @@ a {
   margin-bottom: 24px;
 }
 .proposal-price-1 {
-  background-image: url(/assets/icons/Subtract.svg);
+  background-image: url(./assets/icons/Subtract.svg);
   background-repeat: no-repeat;
   background-size: 187px 70px;
   font-family: Inter;
@@ -591,12 +591,12 @@ a {
   margin: 0;
 }
 .proposal-offer-card-4 {
-  background-image: url(/assets/img/radar\ image.png);
+  background-image: url(./assets/img/radar\ image.png);
   background-repeat: no-repeat;
   background-position: bottom;
 }
 .proposal-offer-card-5 {
-  background-image: url(/assets/img/chat\ telegram.png);
+  background-image: url(./assets/img/chat\ telegram.png);
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -697,7 +697,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(/assets/img/Group.png);
+  background-image: url(./assets/img/Group.png);
   background-repeat: no-repeat;
   background-position: top left;
 }
@@ -717,76 +717,71 @@ a {
   rotate: 45deg;
 }
 /* мы получили все акардионы которые включают в себя чекнутый инпут акардион хес иметь (акардион тоглер чекед (чекнутый инпут)) который включает акардион баттон чекнутый*/
-.footer-top{
+.footer-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 2px solid  #EDF0EF;
-
+  border-bottom: 2px solid #edf0ef;
 }
-.foooter-text{
-
+.foooter-text {
   font-family: Inter;
-font-weight: 400;
-font-style: Regular;
-font-size: 12px;
-leading-trim: NONE;
-line-height: 12px;
-letter-spacing: 0%;
-
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  leading-trim: NONE;
+  line-height: 12px;
+  letter-spacing: 0%;
 }
-.footer-link{
+.footer-link {
   display: flex;
   align-items: center;
   gap: 8px;
 }
-.footer-tel-link{
+.footer-tel-link {
   font-family: Inter;
-font-weight: 500;
-font-style: Medium;
-font-size: 24px;
-leading-trim: NONE;
-line-height: 32px;
-letter-spacing: 0%;
-color: #056B53;
-
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: #056b53;
 }
-.footer{
+.footer {
   width: 100%;
-    max-width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   margin-top: 56px;
 }
-.footer-bottom{
+.footer-bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.foter-bottom-coppyright{
+.foter-bottom-coppyright {
   font-family: Inter;
-font-weight: 400;
-font-style: Regular;
-font-size: 14px;
-leading-trim: NONE;
-line-height: 20px;
-letter-spacing: -0.7%;
-color: #7E807F;
-
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 20px;
+  letter-spacing: -0.7%;
+  color: #7e807f;
 }
-.footer-bottom-email{
+.footer-bottom-email {
   font-family: Inter;
-font-weight: 400;
-font-style: Regular;
-font-size: 14px;
-leading-trim: NONE;
-line-height: 20px;
-letter-spacing: -0.7%;
-color: #1E1F1F;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 20px;
+  letter-spacing: -0.7%;
+  color: #1e1f1f;
 }
-.politology{
-  color: #078F6F;
+.politology {
+  color: #078f6f;
 }
-.footer-bottom-div{
+.footer-bottom-div {
   display: flex;
   gap: 32px;
 }
