@@ -239,11 +239,11 @@ a {
   justify-content: center;
   flex-direction: column;
   margin-bottom: 186px;
-  background-image: url(../assets/img/salat-suka.png), url(../assets/img/big-notebook99.png), url(../assets/img/bg-xuigi.png); 
-   background-repeat: no-repeat; 
-   background-size: auto 550px, 326px 660px, 1492px 1010px; 
+  background-image: url(../assets/img/salat-suka.png),
+    url(../assets/img/big-notebook99.png), url(../assets/img/bg-xuigi.png);
+  background-repeat: no-repeat;
+  background-size: auto 550px, 326px 660px, 1492px 1010px;
   background-position: left 0 top 162px, right 0 bottom 72px, center;
-  
 }
 
 .sub-heading-3 {
@@ -279,8 +279,7 @@ a {
 }
 
 .helf {
-  background-image: url(../assets/img/Group\\(1\).png),
-    url(../assets/img/Group\\(2\).png);
+ 
   background-repeat: no-repeat;
   background-position: left bottom, right bottom;
   padding-bottom: 79px;
@@ -313,6 +312,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(../assets/img/vetka-blati.png);
+  background-repeat: no-repeat;
 }
 .helf-card-heading {
   font-weight: 500;
@@ -413,8 +414,8 @@ a {
   align-items: center;
   flex-direction: column;
   background-image: url(../assets/img/stroubary.png);
-background-repeat: no-repeat;
-background-position: right top 330px;
+  background-repeat: no-repeat;
+  background-position: right top 330px;
 }
 .proposal-div {
   width: 1200px;
@@ -488,29 +489,28 @@ background-position: right top 330px;
   padding-top: 16px;
   border: none;
 }
-.sub-heading-98{
-font-family: Inter;
-font-weight: 500;
-font-style: Medium;
-font-size: 40px;
-leading-trim: NONE;
-line-height: 46px;
-letter-spacing: -1%;
-margin: 0;
-margin-bottom: 24px;
-color: #FFFFFF;
+.sub-heading-98 {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 46px;
+  letter-spacing: -1%;
+  margin: 0;
+  margin-bottom: 24px;
+  color: #ffffff;
 }
-.sub-heading-99{
-  color: #1E1F1F;
-font-family: Inter;
-font-weight: 500;
-font-style: Medium;
-font-size: 74px;
-leading-trim: NONE;
-line-height: 62px;
-letter-spacing: -2%;
-text-align: center;
-
+.sub-heading-99 {
+  color: #1e1f1f;
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 74px;
+  leading-trim: NONE;
+  line-height: 62px;
+  letter-spacing: -2%;
+  text-align: center;
 }
 .proposal-offer-card {
   width: 1200px;
@@ -524,7 +524,6 @@ text-align: center;
   padding-top: 32px;
 }
 .proposal-meal-plan {
-  
   font-family: Inter;
   font-weight: 500;
   font-style: Medium;
